@@ -67,6 +67,6 @@ def get_similarity_score(sound_file1, sound_file2):
 
     # 유사성 계산
     similarity = calculate_similarity(pitch_values1, pitch_values2)
-    print('실행되는거맞니')
+    similarity_score = round(similarity * 50)
 
-    return similarity
+    return similarity_score
